@@ -2,16 +2,14 @@ package br.com.dio.recyclerview.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import br.com.dio.recyclerview.databinding.MovieItemBinding
-import br.com.dio.recyclerview.mock.DataSource
-import br.com.dio.recyclerview.model.MovieModel
+import br.com.dio.recyclerview.model.Movies
 
 class AdapterMovies(
     private val context: Context,
-    private val moviesList: MutableList<MovieModel>
+    private val moviesList: MutableList<Movies>
     ): RecyclerView.Adapter<AdapterMovies.MovieViewHolder>() {
 
 

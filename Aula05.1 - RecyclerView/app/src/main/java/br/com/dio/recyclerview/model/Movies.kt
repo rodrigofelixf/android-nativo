@@ -1,6 +1,6 @@
 package br.com.dio.recyclerview.model
 
-data class MovieModel(
+data class Movies(
     var title: String,
     var year: String
 )

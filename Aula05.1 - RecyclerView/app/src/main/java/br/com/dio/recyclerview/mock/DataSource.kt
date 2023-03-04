@@ -1,20 +1,20 @@
 package br.com.dio.recyclerview.mock
 
-import br.com.dio.recyclerview.model.MovieModel
+import br.com.dio.recyclerview.model.Movies
 
 class DataSource {
 
     companion object {
-         fun createDataSet(): ArrayList<MovieModel> {
-             val list = ArrayList<MovieModel>()
+         fun createDataSet(): ArrayList<Movies> {
+             val list = ArrayList<Movies>()
              list.add(
-                 MovieModel(
+                 Movies(
                      "Avengers",
                      "2012"
                  )
              )
              list.add(
-                 MovieModel(
+                 Movies(
                      "Spider-Man",
                      "2002"
                  )
