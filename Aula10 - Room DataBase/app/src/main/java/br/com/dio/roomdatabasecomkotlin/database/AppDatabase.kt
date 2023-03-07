@@ -16,6 +16,8 @@ abstract class AppDatabase : RoomDatabase() {
 
     abstract fun userDao(): UserDao
 
+
+    // Aqui vai ser um unico banco de dados, codigo padrao
     companion object {
 
         private const val DATABASE_NAME: String = "nome-do-banco-de-dados"

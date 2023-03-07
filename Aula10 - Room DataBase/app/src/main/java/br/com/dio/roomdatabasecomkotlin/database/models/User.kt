@@ -14,5 +14,5 @@ data class User(
 ){
     // deixando uma chave primaria e gerando um id automaticamente para cada registro
     @PrimaryKey(autoGenerate = true)
-    val uid: Int = 0
+    var uid: Int = 0
 }
