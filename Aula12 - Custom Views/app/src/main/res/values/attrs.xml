@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="FollowersIndicator">
+
+        <attr name="counter" format="string"/>
+        <attr name="indicador" format="string"/>
+        <attr name="Bold" format="boolean"/>
+
+    </declare-styleable>
 </resources>
